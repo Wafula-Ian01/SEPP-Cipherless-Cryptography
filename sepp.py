@@ -69,7 +69,7 @@ def main():
         ses = create_SES(args.message, args.statement, args.proof)
         with open("ses_ciphertext.bin", "wb") as f:
             f.write(ses["ciphertext"])
-        print("✅ SES created successfully.")
+        print("SES created successfully.")
         print("Gamma:", ses["gamma"])
         print("Tau:", ses["tau"].hex())
         print("Ciphertext saved to ses_ciphertext.bin")
