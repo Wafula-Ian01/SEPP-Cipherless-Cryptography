@@ -17,9 +17,9 @@
 ### 🔧 Requirements
 
 - Python 3.8+
-- Recommended: virtualenv or conda
+- Recommended: virtualenv or conda (not mandatory)
 
 ### 📦 Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+python sepp.py encrypt --message "message" --statement "identity:subject" --proof "s3cr3tPr00f"
