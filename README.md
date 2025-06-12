@@ -25,6 +25,7 @@
 python sepp.py encrypt --message "message" --statement "identity:subject" --proof "s3cr3tPr00f"
 
 ```
-### Building Go executable
+### Building and Running the Go executable
 ```bash
 go build -o SEPP
+./SEPP
