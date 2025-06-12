@@ -17,9 +17,15 @@
 ### Requirements
 
 - Python 3.8+
+- Go SDK
 - Recommended: virtualenv or conda (not mandatory)
 
 ### Running script
 
 ```bash
 python sepp.py encrypt --message "message" --statement "identity:subject" --proof "s3cr3tPr00f"
+
+### building Go exexcutable
+
+```bash
+go build -o SEPP
